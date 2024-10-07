@@ -6,7 +6,7 @@ class App(tk.Tk):
         super().__init__()
         self.title("Physioform")
         self.geometry("400x300")
-        self.label = tk.Label(self, text="Ole hyvä, ja valitse, minkä testin tuloksen haluat laskea.")
+        self.label = tk.Label(self, text="Ole hyvä, ja valitse, minkä testin tuloksen haluat laskea")
         self.label.grid(row=0, column=0, columnspan=2)
         
         # Button to open the Berg Balance Test form
